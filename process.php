@@ -1,13 +1,13 @@
 <?php
  
-if(isset($_POST['contactInputEmail'])) {
+if(isset($_GET['contactInputEmail'])) {
  
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "vladhstudios@gmail.com"; // change this email to the one you want to receive your emails
+    $email_to = "sixxdigits@gmail.com";
  
-    $email_subject = "Your email subject line"; // subject of every message received from the website
+    $email_subject = "Email From Website";
  
  
     function died($error) {
@@ -30,11 +30,11 @@ if(isset($_POST['contactInputEmail'])) {
  
     // validation expected data exists
  
-    if(!isset($_POST['contactName']) ||
+    if(!isset($_GET['contactName']) ||
  
-        !isset($_POST['contactInputEmail']) ||
+        !isset($_GET['contactInputEmail']) ||
 
-        !isset($_POST['contactMessage'])) {
+        !isset($_GET['contactMessage'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
  
@@ -42,11 +42,11 @@ if(isset($_POST['contactInputEmail'])) {
  
      
  
-    $first_name = $_POST['contactName']; // required
+    $first_name = $_GET['contactName']; // required
  
-    $email_from = $_POST['contactInputEmail']; // required
+    $email_from = $_GET['contactInputEmail']; // required
  
-    $message = $_POST['contactMessage']; // required
+    $message = $_GET['contactMessage']; // required
  
      
  

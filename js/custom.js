@@ -337,7 +337,7 @@ $(function() {
             if (target.length) {
                 $('html,body').animate({
                     scrollTop: target.offset().top - 50
-                }, 2500);
+                }, 600);
                 return false;
             }
         }
