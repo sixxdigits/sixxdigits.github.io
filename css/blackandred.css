@@ -130,7 +130,7 @@ a{
 }
 
 a:hover, a:focus{
-    color: #464646;
+    color: #000000;
 
 }
 
@@ -146,12 +146,12 @@ a:hover, a:focus{
 
 .nav>li.active>a{
     background-color:#141414;
-    color:#DC143C;
+    color:#ffffff;
 }
 
 
 .nav>li.active>a:hover{
-    background-color:#DC143C;
+    background-color:#ffffff;
     color:#141414;
 }
 
@@ -188,7 +188,7 @@ a:hover, a:focus{
 }
 
 #testimonials h3 small, #clients h3 small, .separator h3 small{
-    color:#DC143C;
+    color:#990000;
 }
 
 #about .item:hover .icon > i{

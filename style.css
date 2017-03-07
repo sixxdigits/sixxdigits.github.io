@@ -523,6 +523,8 @@ a:hover, a:focus{
 	
 
     padding: 500;
+	max-width: 100%;
+    height: auto;    
 }
 
 #intro .introItem h1{
@@ -571,13 +573,11 @@ a:hover, a:focus{
     top:0;
     overflow:hidden;
     z-index:-9999;
-    height:100%;
+    height:auto!important;;
     width:100%;
     position:absolute;
+	max-width: 100%;
 }
-
-
-
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
